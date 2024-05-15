@@ -57,12 +57,14 @@ endmodule
 
 Half Adder:
 
+```
 module ha(a,b,sum,carry);
 input a,b;
 output sum,carry;
 and g1(carry,a,b);
 xor g2(sum,a,b);
 endmodule
+```
 
 Full Adder:
 
