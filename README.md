@@ -43,6 +43,8 @@ VERILOG CODE:
 
 Logic gates:
 
+```
+
 module logicgates(a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
 input a,b;
 output andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate;
@@ -54,6 +56,8 @@ nor(norgate,a,b);
 xnor(xnorgate,a,b);
 not(notgate,a);
 endmodule
+
+````
 
 Half Adder:
 
@@ -68,6 +72,8 @@ endmodule
 
 Full Adder:
 
+```
+
 module fulladder(a,b,c,sum,carry);
 input a,b,c;
 output sum,carry;
@@ -79,7 +85,10 @@ and g4(w3,a,b);
 or g5(carry,w2,w3);
 endmodule
 
+```
 Half Subtractor:
+
+```
 
 module halfsubtractor(a,b,difference,borrow);
 input a,b;
@@ -88,7 +97,11 @@ xor (difference,a,b);
 and (borrow,~a,b);
 endmodule
 
+```
+
 Full Subtractor:
+
+```
 
 module fullsubtractor (a,b,c,difference,borrow);
 input a,b,c;
@@ -100,8 +113,10 @@ and g3(w2,~a,b);
 and g4(w3,w1,c);
 or g5(borrow,w3,w2);
 endmodule
+```
 
 8 bit Ripple carry adder :
+```
 
 module fa(a,b,c,sum,carry);
 input a,b,c;
@@ -125,7 +140,7 @@ fa f6(a[5],b[5],w[5],sum[5],w[6]);
 fa f7(a[6],b[6],w[6],sum[6],w[7]);
 fa f8(a[7],b[7],w[7],sum[7],cout);
 endmodule
-
+```
 OUTPUT:
 
 Logic gate:
