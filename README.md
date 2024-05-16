@@ -145,10 +145,31 @@ OUTPUT:
 
 Logic gate:
 
-![Screenshot 2024-02-17 143536](https://github.com/porkodivasu/VLSI-LAB-EXP-1/assets/160757120/84602e8f-bb2b-4fab-9b58-593dbb0dae71)
+![Screenshot 2024-02-17 143536](https://github.com/porkodivasu/VLSI-LAB-EXP-1/assets/160757120/6f6de73b-baa6-4ebe-a420-d72cea1224e5)
 
 Half Adder:
 
+![Screenshot (85)](https://github.com/porkodivasu/VLSI-LAB-EXP-1/assets/160757120/88106e47-e9f7-42da-93d4-0390ee24eaa4)
+
+Full Adder:
+
+![Screenshot (16)](https://github.com/porkodivasu/VLSI-LAB-EXP-1/assets/160757120/18f954a4-39a2-4a4e-bf2c-696bca3fe37c)
+
+Half Subtractor:
+
+![Screenshot (16)](https://github.com/porkodivasu/VLSI-LAB-EXP-1/assets/160757120/aaac5104-7808-40dc-9c78-497ac3bc82a8)
+
+Full Subtractor:
+
+![Screenshot (17)](https://github.com/porkodivasu/VLSI-LAB-EXP-1/assets/160757120/5805f079-c47b-4be8-b3ab-14853a679caa)
+
+
+8 bit ripple carry adder:
+
+![Screenshot (20)](https://github.com/porkodivasu/VLSI-LAB-EXP-1/assets/160757120/1332fb3b-130c-410f-ae99-d280dfade3f4)
 
 RESULT:
+
+Thus the simulation and synthesis of Logic Gates,Adders and Subtractors using
+vivado has been sucessfully executed and verified.
 
