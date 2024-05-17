@@ -1,9 +1,15 @@
 # VLSI-LAB-EXPERIMENTS
+
+EXPERIMENT - 1:
+
+
 AIM:
 
     To simulate and synthesis Logic Gates,Adders and Subtractor using Xilinx ISE.
 
 APPARATUS REQUIRED:
+
+
     Xilinx 14.7 Spartan6 FPGA
 
 PROCEDURE:
@@ -62,7 +68,6 @@ Logic Gates:
 
 VERILOG CODE:
 
-Logic gates:
 
 ```
 
@@ -159,8 +164,6 @@ Full Subtractor:
 
 VERILOG CODE:
 
-
-Full Subtractor:
 
 ```
 
